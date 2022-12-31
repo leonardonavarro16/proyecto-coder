@@ -1,0 +1,98 @@
+@import "../base/variables";
+
+.footer{
+    background-color: #101622;
+
+    .footer__container{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+    .nav--footer{
+        padding-bottom: 20px;
+        display: grid;
+        gap: 1em;
+        grid-auto-flow: row;
+        height: 100%;
+        .footer__title {
+            font-weight: 300;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #fff;
+
+            }
+        }.nav__link--footer{
+            display: flex;
+            padding: 15px;
+            margin: 5px;
+            margin-right: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            color :rgb(219, 218, 218);
+            .nav__items {
+                list-style: none;
+                text-decoration: none;
+                .nav__links{
+                    text-decoration: none;
+                    color :rgb(219, 218, 218);
+                    list-style-type: style none;
+                    margin:80;
+                    padding: 45px;
+                }
+    
+            }
+            .footer__form{
+                width: 100%;
+                justify-content: space-evenly;
+                .fotter__newsletter {
+                    color :rgb(219, 218, 218);
+                    font-weight: 300;
+                    font-size: 1.5rem;
+                }
+            .footer__inputs{
+                margin-top: 10px;
+                display: flex;
+                overflow: hidden;
+                .fotter__input{
+                    background-color: #fff;
+                    height: 50px;
+                    display: block;
+                    padding-left: 10px;
+                    border-radius: 6px;
+                    font-size: 1rem;
+                    outline: none;
+                    border: none;
+                    margin-right: 16px;
+                }
+                
+            .fotter__submit{
+                margin-left: auto;
+                display: inline-block;
+                height: 50px;
+                padding: 0 20px ;
+                background-color: #2091F9;
+                border: none;
+                font-size: 1rem;
+                color: #fff;
+                border-radius: 6px;
+                cursor: pointer;
+                    }
+                }
+            }
+        
+        
+        }
+    .fotter__copy{
+        --padding-container: 30px 0;
+        text-align: center;
+        color: #fff;
+        .fotter__icons{
+            margin-bottom: 10px;
+                }
+            }
+        }
+
+}

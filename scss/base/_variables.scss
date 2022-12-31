@@ -1,0 +1,13 @@
+$color-principal: #001A49;
+$color-secundario:rgb(219, 218, 218);
+
+
+@mixin button ($inline , $button-color, $justify , $color, $text, $padding , $radius){
+    display :$inline;
+    background-color : $button-color ;
+    justify-self:$justify ;
+    color : $color ;
+    text-decoration: $text;
+    padding: $padding;
+    border-radius:$radius  ;
+}
